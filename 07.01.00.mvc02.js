@@ -204,7 +204,7 @@ function viewPayment(request, response) {
 
     listsp = [];
     for (i = 0; i < listkq.length / 3; i++) {
-        listsp.push({ Name: "Tivi " + listkq[i * 3], Price: listkq[i * 3 + 2], Num: listkq[i * 3 + 1] }, );
+        listsp.push({ Name: "Robot " + listkq[i * 3], Price: listkq[i * 3 + 2], Num: listkq[i * 3 + 1] }, );
     }
 
 
